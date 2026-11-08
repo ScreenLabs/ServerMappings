@@ -1,6 +1,7 @@
 name: Deploy Documentation
 on:
   push:
+    branches-ignore: ['claude/**']
     paths:
       - ".github/workflows/docs.yml"
       - "docs/**"
